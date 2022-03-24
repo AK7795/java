@@ -9,7 +9,7 @@ def big(a,b):
 class c1(unittest.TestCase):
 
     def test1(self):
-        x= int(input("no 1 : "))
+        x = int(input("no 1 : "))
         y = int(input("no 2 : "))
         r = big(x,y)
         s = max(x, y)
