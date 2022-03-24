@@ -1,6 +1,9 @@
 import unittest
 
 
+def cube(a):
+    return a*a*a
+
 def divby7(a):
 
     if a % 7 == 0:
@@ -21,6 +24,8 @@ class c(unittest.TestCase):
         y= int(input("enter not 7 : "))
         re = divby7(y)
         self.assertFalse(re)
+
+
 
 
 
