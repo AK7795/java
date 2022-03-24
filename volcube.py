@@ -16,3 +16,5 @@ class c1(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+'''to find biggest among two numbers'''
